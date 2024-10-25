@@ -23,7 +23,7 @@
     </div>
     <script>
 
-      musik = "NamaFileMusik.mp3";
+      musik = "musik.mp3";
 
       window.addEventListener("load", (event) => { var load = document.querySelector(".preload"); load.style = "opacity: 0; transition: .5s ease all;"; setTimeout(() => { load.style.display = "none"; }, 500); }); document.querySelector("button").addEventListener("click", start); var musikku = new Audio(musik); musikku.loop = true; popupku();
       async function start() {
@@ -35,7 +35,7 @@
         await dekatutorial.fire({
 
           imageUrl: "https://dekatutorial.github.io/19gombal/stikerkuy/akuadapertanyaan.gif",
-          title: "Hallo sayangku!",
+          title: "Hallo Bby!",
           text: "Aku ada pertanyaan nih buat kamu",
 
         });
@@ -230,7 +230,7 @@
         await dekatutorial.fire({
 
           imageUrl: "https://dekatutorial.github.io/19gombal/stikerkuy/akujugasayang.gif",
-          title: "Mmwuaaach",
+          title: "🤍🤍🤍🤍",
 
         });
       }
